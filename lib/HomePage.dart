@@ -56,9 +56,9 @@ class _HomePage extends State<HomePage>{
           backgroundColor: Color(0xff286768),
         unselectedItemColor: Color(0xffb2ff59),
         selectedItemColor: Colors.yellowAccent,
-        selectedIconTheme: IconThemeData(size: 23),
         iconSize: 20,
         type: BottomNavigationBarType.fixed,
+        selectedIconTheme: IconThemeData(size: 23),
         showUnselectedLabels: true,
         selectedFontSize: 12,
         unselectedFontSize: 10,
@@ -73,10 +73,7 @@ class _HomePage extends State<HomePage>{
             icon: Icon(Icons.home),
             activeIcon: Container(
               margin: EdgeInsets.only(top: 4),
-<<<<<<< HEAD
-              child: Text("Home"),
-=======
->>>>>>> e2fb083 (Initial commit)
+              child: Icon(Icons.home),
             ),
             label: 'Home'
           ),
@@ -84,10 +81,8 @@ class _HomePage extends State<HomePage>{
             icon: Icon(Icons.trending_up),
             activeIcon: Container(
               margin: EdgeInsets.only(top: 4),
-<<<<<<< HEAD
-              child: Text("Trending"),
-=======
->>>>>>> e2fb083 (Initial commit)
+              child: Icon(Icons.trending_up),
+
             ),
             label: 'Trending'
           ),
@@ -95,10 +90,8 @@ class _HomePage extends State<HomePage>{
             icon: Icon(Icons.subscriptions),
             activeIcon: Container(
               margin: EdgeInsets.only(top: 4),
-<<<<<<< HEAD
-              child: Text("Subscriptions"),
-=======
->>>>>>> e2fb083 (Initial commit)
+              child: Icon(Icons.subscriptions),
+
             ),
             label: 'Subscription'
           ),
@@ -106,14 +99,9 @@ class _HomePage extends State<HomePage>{
             icon: Icon(Icons.settings),
             activeIcon: Container(
               margin: EdgeInsets.only(top: 4),
-<<<<<<< HEAD
-              child: Text("Inbox"),
+              child: Icon(Icons.settings),
             ),
-            label: 'text'
-=======
-            ),
-            label: 'Settings'
->>>>>>> e2fb083 (Initial commit)
+          label: 'Settings',
           ),
         ],
       ),
