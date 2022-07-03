@@ -72,7 +72,10 @@ class _HomePage extends State<HomePage>{
             icon: Icon(Icons.home),
             activeIcon: Container(
               margin: EdgeInsets.only(top: 4),
+<<<<<<< HEAD
               child: Text("Home"),
+=======
+>>>>>>> e2fb083 (Initial commit)
             ),
             label: 'Home'
           ),
@@ -80,7 +83,10 @@ class _HomePage extends State<HomePage>{
             icon: Icon(Icons.trending_up),
             activeIcon: Container(
               margin: EdgeInsets.only(top: 4),
+<<<<<<< HEAD
               child: Text("Trending"),
+=======
+>>>>>>> e2fb083 (Initial commit)
             ),
             label: 'Trending'
           ),
@@ -88,7 +94,10 @@ class _HomePage extends State<HomePage>{
             icon: Icon(Icons.subscriptions),
             activeIcon: Container(
               margin: EdgeInsets.only(top: 4),
+<<<<<<< HEAD
               child: Text("Subscriptions"),
+=======
+>>>>>>> e2fb083 (Initial commit)
             ),
             label: 'Subscription'
           ),
@@ -96,9 +105,14 @@ class _HomePage extends State<HomePage>{
             icon: Icon(Icons.settings),
             activeIcon: Container(
               margin: EdgeInsets.only(top: 4),
+<<<<<<< HEAD
               child: Text("Inbox"),
             ),
             label: 'text'
+=======
+            ),
+            label: 'Settings'
+>>>>>>> e2fb083 (Initial commit)
           ),
         ],
       ),
