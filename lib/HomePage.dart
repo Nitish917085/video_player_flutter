@@ -55,7 +55,8 @@ class _HomePage extends State<HomePage>{
       bottomNavigationBar: BottomNavigationBar(
           backgroundColor: Color(0xff286768),
         unselectedItemColor: Color(0xffb2ff59),
-        selectedItemColor: Colors.green,
+        selectedItemColor: Colors.yellowAccent,
+        selectedIconTheme: IconThemeData(size: 23),
         iconSize: 20,
         type: BottomNavigationBarType.fixed,
         showUnselectedLabels: true,
